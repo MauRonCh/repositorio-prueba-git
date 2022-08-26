@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <di class="navbar__container">
+
+      <div class="brand">
+        <a class="brand__link" href="#">
+          <i class='bx bx-money-withdraw brand__icon'></i>
+          <span class="brand__name">Mauricio</span>
+        </a>
+      </div>
+
+      <div id="menu" class="menu">
+        <i id="menu_close" class="bx bx-x menu__icon menu--close"> </i>
+        <nav class="menu__list">
+          <a class="menu__link" href="#">Home</a>
+          <a class="menu__link" href="#about">About</a>
+          <a class="menu__link" href="#services">Services</a>
+          <a class="menu__link" href="#projects">Project</a>
+          <a class="menu__link" href="#contact">Contact</a>
+        </nav>
+      </div>
+
+      <i id='menu_open' class='bx bx-menu menu__icon menu--open'></i>
+      </div>
+  </header>
+
+  <main class="wrapper">
+
+    <section id="about" class="about grid">
+      <div class="about__item">
+        <div class="info flex items_center">
+          <img class="info__image" src="https://www.pngall.com/wp-content/uploads/5/Profile-Avatar-PNG.png" alt="Profile image">
+          <div class="info__content">
+            <h2 class="info__name">My name</h2>
+            <p class="info__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about__item">
+        <div class="skills">
+          <div class="skills_item"></div>
+            <h3 class="skills_title">Habilidades blandas</h3>
+            <p class="skills_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit delectus distinctio autem eveniet consequuntur voluptate eligendi aut esse a dolore, aperiam asperiores suscipit libero nulla officia modi eaque deserunt. At.</p>
+          <div class="skills_item"></div>
+        </div>
+      </div>
+
+      <div class="about__item">
+        <h3 class="skills_title">Habilidades técnicas</h3>
+
+        <div class="skills_container">
+          <div class="skills__tech">
+            <i class='bx bxl-html5'></i>
+            <p class="skills__text--icon">HTML</p>
+          </div>
+
+          <div class="skills__tech">
+            <i class='bx bxl-css3'></i>
+            <p class="skills__text--icon">CSS</p>
+          </div>
+
+          <div class="skills__tech">
+            <i class='bx bxl-javascript' ></i>
+            <p class="skills__text--icon">JavaScript</p>
+          </div>
+
+          <div class="skills__tech">
+            <i class='bx bxl-github' ></i>
+            <p class="skills__text--icon">GitHub</p>
+          </div>
+
+          <div class="skills__tech">
+            <i class='bx bxl-visual-studio' ></i>
+            <p class="skills__text--icon">VS Code</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about__item">
+        <div class="stack">
+          <h2 class="stack__title">Backend</h2>
+          <i class='bx bxl-nodejs'></i>
+        </div>
+
+        <div class="stack">
+          <h2 class="stack__title">Frontend</h2>
+          <i class='bx bxl-react' ></i>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <h2 class="services__title">Services</h2>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2 class="projects__title">Projects</h2>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2 class="contact__title">Contact</h2>
+    </section>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
