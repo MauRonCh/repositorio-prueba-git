@@ -169,9 +169,10 @@ img {
 /* Main */
 
 .wrapper {
+  margin: 0 auto;
   margin-top: var(--navbar-height);
   max-width: 1024px;
-  margin: 0 auto;
+
 }
 
 /* Utilities */
